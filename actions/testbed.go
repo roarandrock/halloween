@@ -2,7 +2,7 @@ package actions
 
 import (
 	"fmt"
-	"gamecorehalloween/models"
+	"halloween/models"
 )
 
 //Test1 for testing random functionality in the game

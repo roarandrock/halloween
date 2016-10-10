@@ -2,8 +2,8 @@ package narrative
 
 import (
 	"fmt"
-	"gamecorehalloween/actions"
-	"gamecorehalloween/models"
+	"halloween/actions"
+	"halloween/models"
 	//"log"
 )
 

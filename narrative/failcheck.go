@@ -2,7 +2,7 @@ package narrative
 
 import (
 	"fmt"
-	"gamecorehalloween/models"
+	"halloween/models"
 )
 
 //Failcheck checks for death and zero charisma

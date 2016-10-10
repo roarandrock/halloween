@@ -3,7 +3,7 @@ package actions
 import (
 	"fmt"
 	"gamecore/inputs"
-	"gamecorehalloween/models"
+	"halloween/models"
 )
 
 //Itinroom checks for items in room and on person and returns array of items

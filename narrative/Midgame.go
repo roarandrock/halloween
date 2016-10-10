@@ -2,9 +2,9 @@ package narrative
 
 import (
 	"fmt"
-	"gamecorehalloween/actions"
-	"gamecorehalloween/inputs"
-	"gamecorehalloween/models"
+	"halloween/actions"
+	"halloween/inputs"
+	"halloween/models"
 )
 
 //Midgame is the guts of the game, trigger encounters

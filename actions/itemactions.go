@@ -2,7 +2,7 @@ package actions
 
 import (
 	"fmt"
-	"gamecorehalloween/models"
+	"halloween/models"
 )
 
 //Useitem attempt at using items

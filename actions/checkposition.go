@@ -2,8 +2,8 @@ package actions
 
 import (
 	"fmt"
-	"gamecorehalloween/inputs"
-	"gamecorehalloween/models"
+	"halloween/inputs"
+	"halloween/models"
 )
 
 //Checkposition checks current positiion in the environment against the map

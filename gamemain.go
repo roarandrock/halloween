@@ -20,7 +20,7 @@ package main
 
 import (
 	"fmt"
-	"gamecorehalloween/narrative"
+	"halloween/narrative"
 	"log"
 )
 

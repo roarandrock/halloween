@@ -2,8 +2,8 @@ package actions
 
 import (
 	"fmt"
-	"gamecorehalloween/inputs"
-	"gamecorehalloween/models"
+	"halloween/inputs"
+	"halloween/models"
 )
 
 var ( //for tweaking battles, light medium and heavy damage
