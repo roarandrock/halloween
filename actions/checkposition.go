@@ -77,17 +77,18 @@ func Stq(np models.Player) models.Player {
 	s := "How old are you?"
 	i := inputs.Basicinput(s)
 	np.Age = i
+	np.Health = 100
+	np.Charisma = 100
+	np.Continue = true
+	np.Position = 1
 	if i < 18 {
 		fmt.Println("Sorry, you are too young for this experience.\nGo play Monopoly with your babysitter.")
 		np.Continue = false
 		return np
 	}
+	fmt.Println("it is late and you are home alone")
 	//s = "What's your name?"
 	//s = "What's your identifying gender?"
-	np.Health = 100
-	np.Charisma = 100
-	np.Continue = true
-	np.Position = 1
 	return np
 }
 
