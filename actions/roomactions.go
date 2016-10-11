@@ -2,7 +2,7 @@ package actions
 
 import (
 	"fmt"
-	"gamecore/inputs"
+	"halloween/inputs"
 	"halloween/models"
 )
 
