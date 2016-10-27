@@ -12,6 +12,7 @@ Longterm:
 -relying less on range map searches, maybe templates?
 -charisma being useful?
 -crippling and statuses?
+-add try again option at end
 Author: roarandrock
 */
 

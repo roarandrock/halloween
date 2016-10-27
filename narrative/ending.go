@@ -3,6 +3,7 @@ package narrative
 import (
 	"fmt"
 	"halloween/actions"
+	"halloween/inputs"
 	"halloween/models"
 	//"log"
 )
@@ -18,6 +19,8 @@ func Ending(endp models.Player) {
 	fmt.Println("items on corpse:", itemlist)
 	endm := models.Chosenmonsterget()
 	fmt.Println("Monster's health:", endm.Health)
+	s := "Thanks for playing. Enter 1 to quit."
+	inputs.Basicinput(s)
 	/* Point check
 	c := endp.Points
 	fmt.Println("Final Points: ", c)

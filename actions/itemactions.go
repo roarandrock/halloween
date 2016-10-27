@@ -243,7 +243,7 @@ func Useitem(item1 models.Item, action string, cp models.Player) (models.Item, m
 		default:
 			fmt.Println("it has no effect")
 		}
-	case item1.Name == "hairspray":
+	case item1.Name == "hair spray":
 		switch action {
 		case item1.Action1:
 			fmt.Println("uber hair lock. there are a multitude of little warning signs on the can.")

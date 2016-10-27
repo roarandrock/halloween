@@ -30,7 +30,9 @@ func Monstercheck(cp models.Player) models.Player {
 		for bcheck == 1 { //need to check if player is alive, monster is alive, and they are in the same room
 			cp, cm = battle(cp, cm)
 			if cm.Position == cp.Position {
-				models.Monsterhealth(cm)
+				if cm.Health > 0 {
+					models.Monsterhealth(cm)
+				}
 			}
 			bcheck = 0
 			if cm.Health > 0 && cp.Health > 0 {
